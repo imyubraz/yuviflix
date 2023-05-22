@@ -30,8 +30,8 @@ const MovieCard = ({data})=>{
 
 const Movie = async() => {
 
-  // const url ="https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en";
-  const url = process.env.NETFLIX_API;
+  const url ="https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=20&limit_suggestions=20&lang=en";
+  // const url = process.env.NETFLIX_API;
   const options = {
     method: "GET",
     headers: {
